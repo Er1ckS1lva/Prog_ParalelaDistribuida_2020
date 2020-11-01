@@ -16,11 +16,11 @@ public class Teste {
 
 		
 		try (Scanner teclado = new Scanner(System.in)) {
-			System.out.println("Quantos Jogadores paticipar„o da corrida ?");
+			System.out.println("Quantos Jogadores paticipar√£o da corrida ?");
 			quantidade = Integer.parseInt(teclado.nextLine());
 			
 			for (int i = 0; i < quantidade;i++) {
-				System.out.println("InformaÁıes Jogador "+(i+1));
+				System.out.println("Informa√ß√µes Jogador "+(i+1));
 				System.out.println("Nome : ");
 				pessoa = teclado.nextLine();
 				System.out.println("Velocidade : ");
