@@ -17,13 +17,13 @@ public class Corrida implements Runnable {
 	}
 	
 	public void run() {
-		System.out.println(this.Nome+" começou !");
+		System.out.println(this.Nome+" comeÃ§ou !");
 		while(this.Pos<10){
 			try {
 				
 				if(Pos < 10) {
 					Pos = Pos+1;
-					System.out.println(Nome + " Avançou");
+					System.out.println(Nome + " AvanÃ§ou");
 					Thread.sleep(Veloc*20);
 				}
 			} catch (InterruptedException e) {
