@@ -2,9 +2,8 @@ package br.edu.iftm;
 
 public class Corrida implements Runnable {
 
-	@SuppressWarnings("unused")
 	private String Nome;
-	@SuppressWarnings("unused")
+	
 	private Integer Veloc;
 	
 	//private Thread thread;
